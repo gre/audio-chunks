@@ -1,0 +1,31 @@
+{
+  "name": "audio-chunks",
+  "version": "0.0.1",
+  "description": "slice/append/insert/subset/copy operations on AudioBuffer linked-list chunks",
+  "keywords": [
+    "audio",
+    "webaudioapi",
+    "audiobuffer",
+    "chunks"
+  ],
+  "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
+  "contributors": [
+    {
+      "name": "S. Nizar",
+      "email": "nisehl@gmail.com"
+    }
+  ],
+  "dependencies" : {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "main": "src/audiochunks.js",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gre/audio-chunks.git"
+  }
+}
